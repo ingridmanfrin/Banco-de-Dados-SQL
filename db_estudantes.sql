@@ -7,7 +7,7 @@ CREATE TABLE tb_alunos(
    Nome VARCHAR (255) NOT NULL,
    Serie VARCHAR (255),
    DataMatricula DATE,
-   Notas DECIMAL(7,2) NOT NULL,
+   Notas DECIMAL(4,2) NOT NULL,
    PRIMARY KEY(Id)
 );
 
@@ -33,3 +33,5 @@ SELECT * FROM tb_alunos WHERE Notas <7.0;
 ALTER TABLE tb_alunos ADD Idade INT;
 
 UPDATE tb_alunos SET Idade = 7 WHERE Id = 1;
+
+SELECT * FROM tb_alunos;
