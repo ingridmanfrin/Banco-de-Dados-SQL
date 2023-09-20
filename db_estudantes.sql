@@ -1,6 +1,7 @@
 CREATE DATABASE db_estudantes;
-
+GO
 USE db_estudantes;
+GO
 
 CREATE TABLE tb_alunos(
    Id BIGINT IDENTITY(1,1),
